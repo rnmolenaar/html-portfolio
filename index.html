@@ -22,30 +22,29 @@
       border-color:  rgb(201, 33, 44);;
     }
 
-    h3 {
-      text-align: center;
-      color: #f98e0b;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
 
-    a {
-      color: #f98e0b;
-    }
 
     button {
       
       color: white;
       font-size: 16px;
       font-family: Papyrus;
+     
       border-radius: 30px;
       background-color: red;
       width:168px;
       border: none;
-      padding: 10px; 5px; 5px; 5px;
-      display:inline-block;
+      padding: 10px; 5px; 5px; 5px;      
       max-width:500px;
       margin-top: 10px;
-      display:inline-block;
+   
+    }
+
+    .stretch {
+      display: flex;
+      gap:20px;
+      text-align: center;
+     
     }
 
     .changeup:{
@@ -61,6 +60,7 @@
 
     * {
     background-color: rgb(251, 243, 203);
+    text-align: center;
       }  
   </style>
 
@@ -70,9 +70,12 @@
 <h1> Home</h1>
 <h2></h2>
 <hr>
-<h3> <a href="./public/dutch-practice.html"> <button class="changeup">Dutch Practice</button></a>
-<h3> <a href="./public/japanese-cities.html"> <button class="changeup">Japanese Cities</button></a>
-<h3> <a href="./public/shinto-shrines.html"> <button class="changeup">Shinto Shrines</button></a>
+<div class="stretch">
+  <div> <a href="./public/dutch-practice.html"> <button class="changeup">Dutch Practice</button></a></div>
+  <div> <a href="./public/japanese-cities.html"> <button class="changeup">Japanese Cities</button></a></div>
+  <div> <a href="./public/shinto-shrines.html"> <button class="changeup">Shinto Shrines</button></a></div>
+
+</div>
 
 
 </h3>
