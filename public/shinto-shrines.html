@@ -24,15 +24,15 @@
       font-size: 16px;
       font-family: Papyrus;
       border-radius: 30px;
-      background-color: red;
-      width:180px;
+      background-color: red;      
       border: none;
       padding: 10px; 5px; 5px; 5px;
-      display:inline-block;
-      max-width:100px;
+     
       margin-top: 10px;
       margin-right: 20px;
       transition: 0.8s;
+      min-width: 90px;
+      
       
     }
 
@@ -45,10 +45,13 @@
       box-shadow: 0 0 20px rgba(97, 23, 23, 0.5);
     }
 
-.linksset{
-  max-width: 60%;
-  text-align: center;
-  margin-left: 18%;
+.flexcontainer{
+  display:flex;
+  flex:1;
+  flex-direction: row;
+  justify-content: center;  
+  height: 100%;
+
  
 }
 
@@ -69,14 +72,14 @@
 
 
 
-<div class="linksset">
+<div class="flexcontainer">
 
 
 
-  <a href="./shrines/osaka-shrines.html"> <button class="Osaka">Osaka</button></a>
-  <a href="./shrines/nagano-shrines.html"> <button class="Osaka">Nagano</button></a>
-
-
+ <div><a href="./shrines/osaka-shrines.html"> <button class="Osaka">Osaka</button></a></div> 
+ <div><a href="./shrines/nagano-shrines.html"> <button class="Osaka">Nagano</button></a></div> 
+ <div><a href="./shrines/tokyo-shrines.html"> <button class="Osaka">Tokyo</button></a></div> 
+ <div><a href="./shrines/Tottori-shrines.html"> <button class="Osaka">Tottori</button></a></div> 
 
 
 </div>
