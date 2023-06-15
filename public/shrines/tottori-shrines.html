@@ -7,16 +7,23 @@
   <title>Tottori Shrines</title>
 <style>
     img{
-    max-width: 18%;
+    max-width: 98%;
     align-items: center;
     margin-bottom: 2%;
+    margin-right: 2%;
   }
 
-  .divske {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;    
+  .grid-divske {
+  display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   gap: 10px;
+   row-gap: 0px;
+   column-gap: 0px;
+   max-width: 1000px;
+   margin-left: 17%;
+
+    
   }
 
   h1 {
@@ -37,11 +44,12 @@
      
   <hr>
     
-  <div class="divske">
+  <div class="grid-divske">
         <div class="shrine-picture"><img src="simages/tot-tajirimain.jpg"/></div>      
         <div class="shrine-picture"><img src="simages/tot-arasuna.jpg"/></div>
         <div class="shrine-picture"><img src="simages/tot-mukojimaebisu.jpg"/></div>
         <div class="shrine-picture"><img src="simages/tot-minato.jpg"/></div>
+        
       
     </div>
   
