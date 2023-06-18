@@ -40,6 +40,18 @@
       
     }
 
+    .container{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr; 
+   grid-template-rows: 1fr 1fr 1fr ;
+  
+   gap: 22px;
+   row-gap: 0px;
+   column-gap: 0px;
+   max-width: 1000px;
+   margin-left: 22%;    
+  }
+
    
 
     button:hover {
@@ -50,7 +62,7 @@
     }
 
 .flexcontainer{
-  display:flex;
+  display:fgrid;
   flex:1;
   flex-direction: row;
   justify-content: center;  
@@ -75,8 +87,7 @@
 <hr>
 
 <p class="happiness">
-  Welcome to this site filled with lovely Shinto shrines from Japan.
-  The amount of Shinto shrines is not known. Estimates run up to around 100.000.<br>
+  The amount of Shinto shrines in Japan is not even known. Estimates run up to around 100.000.<br>
   If I could, I would visit them all, but that seems a large amount to just visit. <br>
   On this website, you can find some of the shrines I have visited, grouped by prefecture. 
 
@@ -84,17 +95,17 @@
 
 
 
-<div class="flexcontainer">
+<div class="container">
 
 
-  <div><a href="./shrines/gifu-shrines.html"> <button class="prefecture">Gifu</button></a></div>
-  <div><a href="./shrines/fukui-shrines.html"> <button class="prefecture">Fukui</button></a></div> 
-  <div><a href="./shrines/kyoto-shrines.html"> <button class="prefecture">Kyoto</button></a></div>   
+<div><a href="./shrines/gifu-shrines.html"> <button class="prefecture">Gifu</button></a></div>
+<div><a href="./shrines/fukui-shrines.html"> <button class="prefecture">Fukui</button></a></div> 
+<div><a href="./shrines/kyoto-shrines.html"> <button class="prefecture">Kyoto</button></a></div>   
  <div><a href="./shrines/osaka-shrines.html"> <button class="Osaka">Osaka</button></a></div> 
  <div><a href="./shrines/nagano-shrines.html"> <button class="Osaka">Nagano</button></a></div> 
  <div><a href="./shrines/shiga-shrines.html"> <button class="Osaka">Shiga</button></a></div> 
  <div><a href="./shrines/tokyo-shrines.html"> <button class="Osaka">Tokyo</button></a></div> 
- <div><a href="./shrines/Tottori-shrines.html"> <button class="Osaka">Tottori</button></a></div> 
+ <div><a href="./shrines/tottori-shrines.html"> <button class="Osaka">Tottori</button></a></div> 
 
 
 </div>
