@@ -17,7 +17,7 @@
   display: grid;
    grid-template-columns: 1fr 1fr;
    grid-template-rows: 1fr 1fr;
-   gap: 10px;
+   gap: 1px;
    row-gap: 0px;
    column-gap: 0px;
    max-width: 1000px;
@@ -37,8 +37,19 @@
        text-shadow: 2px 3px #FF4D00;
     }
 
+    .shrine-picture{
+      color: #FF4D00;
+      font-size: 14px;
+      border-color: #f7c821;
+   
+      border-style: double;
+      margin: 2px;
+    }
+
+
    .shrine-picture:hover{
       opacity: 0.7;
+      color: black;
     }
 
 
@@ -70,10 +81,14 @@
 </p>
 
 <div class="grid-divske">
-    <div class="shrine-picture"><img src="simages/osa-imamiya-ebisu.jpg" alt="Imamiya Ebisu shrine in Osaka"/></div>
-    <div class="shrine-picture"><img src="simages/osa-hirota.jpg" alt="Hirota shrine in Osaka"/></div>
-    <div class="shrine-picture"><img src="simages/osa-nambayasaka.jpg" alt="Imamiya Ebisu shrine in Osaka"/></div>
-    <div class="shrine-picture"><img src="simages/shikitsumatsunomiya.jpg" alt="Shikitsumatsunomiya in Osaka"/></div>
+    <div class="shrine-picture"> <p>Imamiya Ebisu Shrine</p><img src="simages/osa-imamiya-ebisu.jpg" alt="Imamiya Ebisu shrine in Osaka"/>
+    </div>
+    <div class="shrine-picture"> <p>Hirota Shrine</p><img src="simages/osa-hirota.jpg" alt="Hirota shrine in Osaka"/>
+      </div>
+    <div class="shrine-picture">  <p>Namba Yasaka Shrine</p><img src="simages/osa-nambayasaka.jpg" alt="Namba Yasaka shrine in Osaka"/>
+    </div>
+    <div class="shrine-picture">  <p>Shikitsumatsunomiya Shrine</p><img src="simages/shikitsumatsunomiya.jpg" alt="Shikitsumatsunomiya in Osaka"/>
+    </div>
 
   
   </div>
