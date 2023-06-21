@@ -5,81 +5,66 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Osaka Shrines</title>
-
   <style>
+    img{
+    max-width: 98%;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-right: 2%;
+  }
 
-h1 {
+  .grid-divske {
+  display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   gap: 10px;
+   row-gap: 0px;
+   column-gap: 0px;
+   max-width: 1000px;
+   margin-left: 17%;    
+  }
+
+  p {
+    text-align: center;
+    font-family: papyrus;
+    font-size: 20px;
+    }
+
+  h1 {
       text-align: center;
       font-family: papyrus;
-       font-size: 50px;
+       font-size: 55px;
+       text-shadow: 2px 3px #FF4D00;
     }
 
-    img {
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px;
-         width: 350px;
-         float:left
-      }
-
-      .img-right{
-        float: right;
-      }
-
-      p {
-        font-family:Arial, Helvetica, sans-serif;
-        font-size: 30px;
-      }
-
-      div{
-        max-width: 40px;
-      }
-
-
-    button {
-      color: white;
-      font-size: 16px;
-      font-family: Papyrus;
-      border-radius: 30px;
-      background-color: red;
-      width:180px;
-      border: none;
-      padding: 10px; 5px; 5px; 5px;
-      display:inline-block;
-      max-width:100px;
-      margin-top: 10px;
-      margin-right: 20px;
-      transition: 0.8s;
-      
+   .shrine-picture:hover{
+      opacity: 0.7;
     }
 
-    .shikitsumatsunomiya {
-      max-width:80%;
-      margin-left: 10%;
-    }
-  <style>
+
+</style>
+
 
    
 
 
-  </style>
 </head>
 <body>
 
   <h1>Shrines in Osaka Prefecture</h1>
   <hr>
 
-  <div class="shikitsumatsunomiya">
-  <img src="simages/shikitsumatsunomiya.jpg"/>
-  <p>Osaka prefecture is dominated by Osaka, one of Japan's biggest cities.
+<p>
+    Osaka prefecture is dominated by Osaka, one of Japan's biggest cities.
     Contrary to what you might expect in such a place, there are plenty of beautiful 
     shrines to be visited there. Finding an elegant shrine between the concrete has its own charm. 
     The shrine featured here is Shikitsumatsunomiya, which can be found south of the Namba area. 
     One nice feature of this shrine are the mice that stand guard. Usually, this is done by other animals like lions. 
+</p>
 
-   
+  <div class="shrine-picture">
+  <img src="simages/shikitsumatsunomiya.jpg"/>
 
-    </p>
   
   </div>
 </body>
