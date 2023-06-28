@@ -7,10 +7,15 @@
   <title>Osaka Shrines</title>
   <style>
     img{
-    max-width: 98%;
+    max-width: 90%;
     align-items: center;
-    margin-bottom: 2%;
-    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+   margin-left: 5%;
+   margin-bottom: 7%;
+   border-style: none;
+   border-radius: 5%;
+   
   }
 
   .grid-divske {
@@ -18,11 +23,15 @@
    grid-template-columns: 1fr 1fr;
    grid-template-rows: 1fr 1fr;
    gap: 1px;
-   row-gap: 0px;
-   column-gap: 0px;
+   row-gap: 20px;
+   column-gap: 20px;
    max-width: 1000px;
    margin-left: 17%;    
+   
+   border-top-left-radius: 20%;
   }
+
+  
 
   p {
     text-align: center;
@@ -40,10 +49,10 @@
     .shrine-picture{
       color: #FF4D00;
       font-size: 14px;
-      border-color: #f7c821;
-   
+      border-color: #f7c821;   
       border-style: double;
-      margin: 2px;
+      border-radius: 8%;      
+
     }
 
 
@@ -61,12 +70,13 @@
 
 </head>
 <body>
-
+  
   <nav>
-    <a href="/4.3 HTML Porfolio Project/index.html">Home</a>
-    <a href="/4.3 HTML Porfolio Project/public/shinto-shrines.html">Shinto Shrines</a> 
+    <a href="https://rnmolenaar.github.io/html-portfolio/">Home</a>
+    <a href="https://rnmolenaar.github.io/html-portfolio/public/shinto-shrines.html">Shinto Shrines</a> 
  
   </nav>
+
 
 
   <h1>Shrines in Osaka Prefecture</h1>
@@ -81,7 +91,7 @@
 </p>
 
 <div class="grid-divske">
-    <div class="shrine-picture"> <p>Imamiya Ebisu Shrine</p><img src="simages/osa-imamiya-ebisu.jpg" alt="Imamiya Ebisu shrine in Osaka"/>
+    <div class="shrine-picture"><a href="osa-imamiya-ebisu.html"></a> <p>Imamiya Ebisu Shrine</p><img src="simages/osa-imamiya-ebisu.jpg" alt="Imamiya Ebisu shrine in Osaka"/></a>
     </div>
     <div class="shrine-picture"> <p>Hirota Shrine</p><img src="simages/osa-hirota.jpg" alt="Hirota shrine in Osaka"/>
       </div>
