@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Dutch practice</title>
+  <title>Japanese start</title>
   
   <style>
     h1 {
@@ -54,7 +55,6 @@
   div, h3, li, ul, ol, p, h4, .below {
     background-color: rgb(251, 253, 230);   
     max-width: 90%; 
-   
   }
 
   .intro {
@@ -69,7 +69,6 @@
     margin-bottom: 30px;
     margin-left: 420px;
     width: 42%;  
-    
   }
 
   .hint{
@@ -82,8 +81,7 @@
   .hint:hover {
     cursor:pointer;
     color: black;
-
-  }
+}
 
   .hide {
     background-color: orange;
@@ -124,22 +122,37 @@
 </head>
 <body>
 
-  <h1>Dutch Practice </h1>
+  <h1>Japanese Beginners </h1>
   <hr>
 
-  <h2>Verbs: present tense</h2>
+  <h2>Chapter 1: I am a cat</h2>
   
   <div class="intro">
-    Most verbs follow this pattern:
-  <ul style="list-style-type:square;">
-  <li>ik loop</li>
-  <li>jij loopt (loop jij?)</li>
-  <li>u loopt (loopt u?)</li>
-  <li>hij/zij/het loopt</li>
-  <li>wij lopen</li>
-  <li>jullie lopen</li>
-  <li> zij lopen</li>
-  </ul>
+    <p>
+      <b>watashi wa neko desu: I am a cat</b>
+    </p>  
+
+    
+    
+  
+    <p> 
+
+    Watashi: I. This is quite a polite way to say 'I'. Interestingly enough, there are quite a few different ways. 
+    In Japanese, pronouns are often left out when it's clear from the context who is being talked about. 
+    I could therefore say 'neko desu' when people are aware that I am the person being talked about. 
+
+    wa: this is a topic marker and comes after the word being talked about. In this it's refers back to 'neko'. Japanese has no articles like in English or most European 
+    languages, but they do have a few of these 'particles'. More on this later.  
+
+    Neko: cat, cats. 
+    There is no difference between singular and plural either for nouns. 'neko' can mean 'cat' or 'cats'. 
+
+    Desu: to be. 
+    The good news is that this verb stays the same no matter who is or who are something. It doesn't change whether there are 1, 2 or more people who are something. 
+    Same goes for all verbs in Japanese. 
+    So there is no difference between 'I read' and "he readS' either.
+    Verbs can always be found at the end of a sentence. 
+   </p>
   </div>
  
 
