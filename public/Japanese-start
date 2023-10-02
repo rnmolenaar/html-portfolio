@@ -10,6 +10,7 @@
   <title>Japanese start</title>
   
   <style>
+
     h1 {
       text-align: center;
       color: #f98e0b;
@@ -119,6 +120,7 @@
 
   </style>
 </head>
+
 <body>
 
   <h1>Japanese Beginners </h1>
@@ -132,8 +134,9 @@
     </p>  
   </div>
 
+  <h3> Main</h3>
    <p> 
-
+  
     Watashi: I. This is quite a polite way to say 'I'. Interestingly enough, there are quite a few different ways. 
     In Japanese, pronouns are often left out when it's clear from the context who is being talked about. 
     I could therefore say 'neko desu' when people are aware that I am the person being talked about. 
@@ -150,7 +153,32 @@
     So there is no difference between 'I read' and "he readS' either.
     Verbs can always be found at the end of a sentence. 
    </p>
-  </div>
+
+   <h3> The words.</h3>
+
+  <p>
+
+  <p> 
+
+  Anata: you. Again, this word is not nearly used as much as we use 'you' in English. There are also multiple ways of saying 'you' in Japanese. 
+  Often, people are addressed by their title, like teacher or chef instead, which brings us to...
+
+  Sensei: teacher. This is used to talk about people who are teachers, but also to address them. The word is used by itself, but also added at the end of a last name. 
+  Tanaka-sensei is therefore teacher Tanaka. 
+  
+  otoko: man. 
+
+  onna: woman. 
+
+  Now that we learned just four more words, we can make several new sentences. 
+
+  anata wa sensei desu: you are a teacher. 
+  sensei wa otoko desu: the teacher is a man. 
+  anata wa onna desu: you are a woman. 
+  
+  desu is only used to make clear what someone is, not where someone or something is. There are other verbs for that purpose. 
+
+ 
  
 
 </body>
